@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai8</title>
+</head>
+<body>
+<form id="reset">
+<p id="return"></p>
+<input id="max" type="number"> Gioi Han Tren<br>
+<input id="min" type="number">Gioi Han Duoi <br>
+<button type="button" onclick="timSo()">Choi Game</button>
+<br>
+<button type="button" onclick="reset()" value="reset" >Reset Gioi Han </button>
+</form>
+<script>
+
+
+    function timSo() {
+        let min = parseInt(document.getElementById('min').value);
+        let max = parseInt(document.getElementById('max').value);
+        let random = Math.floor(Math.random() * max) + min;
+        alert(random);
+        let ketqua = false;
+        for (let i = 1; i <= 3; i++) {
+            let number = parseInt(prompt('moi ban nhap gia tri ban doan' + (3 - i) + 'luot doan'));
+            if (number == random) {
+                ketqua = true;
+                break;
+            }
+
+        }
+
+        if (ketqua) {
+            document.getElementById('return').innerHTML = ' Chuc Mung Ban Da Doan Trung';
+        } else {
+            document.getElementById('return').innerHTML = ' Chuc Ban May Man Lan Sau!';
+        }
+
+    }
+
+function reset() {
+        document.getElementById('reset').reset();
+}
+
+</script>
+</body>
+</html>

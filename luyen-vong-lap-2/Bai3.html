@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 3</title>
+</head>
+<body>
+<script>
+    // // Phan 1:
+    // document.write('<table border="0">');
+    // let number=parseInt(prompt());
+    // for (i=0;i<=number;i++){
+    //     document.write('<tr>');
+    //     for (j=0;j<=i;j++){
+    //         document.write('<td>');
+    //         document.write('*');
+    //         document.write('</td>');
+    //     }
+    //
+    //     document.write('<tr>')
+    // }
+    //
+    // document.write('</table>');
+    // // Phan 2:
+    // document.write('<table border="0">');
+    // let number=parseInt(prompt());
+    // for (i=number;i>=0;i--){
+    //     document.write('<tr>');
+    //     for (j=0;j<=i;j++){
+    //         document.write('<td>');
+    //         document.write('*');
+    //         document.write('</td>');
+    //     }
+    //
+    //     document.write('<tr>')
+    // }
+    //
+    // document.write('</table>');
+    // // Phan 3
+    // document.write('<table border="0">');
+    // let number = parseInt(prompt());
+    // for (i = 0; i <= number; i++) {
+    //     document.write('<tr>');
+    //     for (j = number; j >= i; j--) {
+    //         document.write('<td>');
+    //         document.write(' ');
+    //         document.write('</td>');
+    //     }
+    //     for (k = 0; k <= i; k++) {
+    //         document.write('<td>');
+    //         document.write('*');
+    //         document.write('</td>')
+    //     }
+    //
+    //     document.write('<tr>')
+    // }
+    //
+    // document.write('</table>');
+    // // phan 4
+    document.write('<table border="0">');
+    let number = parseInt(prompt());
+    for (i = 0; i <= number; i++) {
+        document.write('<tr>');
+        for (j = 0; j <= i; j++) {
+            document.write('<td>');
+            document.write(' ');
+            document.write('</td>');
+        }
+        for (k = number; k >= i; k--) {
+            document.write('<td>');
+            document.write('*');
+            document.write('</td>')
+        }
+
+        document.write('<tr>')
+    }
+
+    document.write('</table>');
+    document.write('<table border="1">');
+
+</script>
+
+</body>
+</html>

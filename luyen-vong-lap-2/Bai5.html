@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai5</title>
+</head>
+<body>
+<input type="number" id="tienvay">Nhap So Tien Ban Vay<br>
+<input type="number" id="laisuat">Nhap So  Lai Hang Thang %<br>
+<input id="thang" type="number">Nhap So Thang Vay<br>
+<button type="button" onclick="tinhtoan()" >Tinh Toan</button><br>
+<p id="tongtientra">So Tien Ban Phai Tra</p> <br>
+<p id="tongtienlai">So Tien Lai Ban Phai Tra</p>
+<script>
+
+function tinhtoan() {
+    let tienvay=parseInt(document.getElementById('tienvay').value);
+    let tienlai=parseInt(document.getElementById('laisuat').value)/100;
+    let thang=parseInt(document.getElementById('thang').value);
+    let tongtientra;
+    let tongtienlai;
+    for(let i=0;i<=thang;i++ ){
+tongtientra=tienvay+tienlai*tienvay;
+tongtienlai=tienlai*tienvay;
+    }
+    document.getElementById('tongtientra').innerHTML=tongtientra;
+    document.getElementById('tongtienlai').innerHTML=tongtienlai;
+}
+
+</script>
+</body>
+</html>

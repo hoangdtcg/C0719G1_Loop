@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 1</title>
+</head>
+<body>
+<p id="trave"></p><br>
+<input id="number" type="number">Moi Ban Nhap So<br>
+<button type="button" onclick="ketqua()">Tinh Ket Qua</button>
+<script>
+    function ketqua() {
+        let number = document.getElementById('number').value;
+        let ketqua=1;
+        for (let i =1 ; i<=number ; i++){
+            ketqua=ketqua*i;
+        }
+        document.getElementById('trave').innerHTML='Giai Thua Cua '+number+'!:  '+ketqua;
+    }
+</script>
+</body>
+</html>

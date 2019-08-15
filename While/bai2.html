@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 2</title>
+</head>
+<body>
+<input id="thehr" type="number" onmouseout="outclick()" >
+<script>
+    function outclick() {
+        let a = document.getElementById('thehr').value;
+        let i = 0;
+        while (i < a) {
+            i++;
+            document.write('<hr width = ' + i + '% >');
+
+        }
+    }
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So Nguyen To</title>
+</head>
+<body>
+<script>
+    let numbers = parseInt(prompt('Nhap chuoi nguyen to: '));
+    let count = 0;
+    let N = 2;
+    while (count < numbers) {
+        if (show(N)) {
+            document.write(N + '  ');
+            count = count + 1;
+        }
+        N = N + 1;
+    }
+
+    function show(number) {
+        if (number<2) {
+             return false;
+        }
+        for (let i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                return false;
+            }
+        }return true;
+
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bang Cuu Chuong</title>
+</head>
+
+<style>
+    button {
+        width: 100%;
+        background-color: white;
+    }
+</style>
+
+<body>
+
+<h1>BANG CUU CHUONG</h1>
+
+<script>
+    let sout;
+    sout = "<table border='1' width='800' cellspacing='0' cellpadding='3'>";
+    for (let i = 1; i < 10; i++) {
+        sout = sout + "<tr>";
+        for (let j = 2; j < 10; j++) {
+            sout = sout + "<td><button>" +j+" x " +i+ " = " + i*j + "</button></td>";
+        }
+        sout = sout + "</tr>";
+    }
+    sout = sout + "</table>";
+    document.write(sout);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" id="btnPlay" onclick="searchNumb()q" value="Play">
+<script>
+    function searchNumb() {
+        let from = parseInt(prompt("Nhap vao gioi han duoi: "));
+        let to = parseInt(prompt("Nhap vao gioi han tren"));
+        let selectedNumb = Math.floor(Math.random() * (to - from + 1) + from);
+        let checked = false;
+        let guestedNumb = parseInt(prompt("Nhap so ban doan"))
+        for (i = 0; i < 2; i++) {
+            if (guestedNumb == selectedNumb) {
+                checked = false;
+                break;
+            } else {
+                guestedNumb = parseInt(prompt("Sai!!! Ban co " + (2 - i) + " luot nua. Nhap lai so ban du doan: "));
+            }
+        }
+        if (checked) {
+            alert("ban da doan dung!");
+        }else {
+            alert("Ban doan sai roi nhe!");
+        }
+    }
+
+</script>
+</body>
+</html>

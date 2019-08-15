@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numbers = parseInt(prompt("Nhap vao so luong so nguyen to ban muon xem : "));
+    let count = 0;
+    let N = 2;
+    while (count<numbers){
+        if (Snt()){
+            document.write(N + " ");
+            count++;
+        }
+        N++;
+    }
+    function Snt() {
+        if (N<2){
+            return false;
+        }
+        for (let i = 2; i<= Math.sqrt(N); i++){
+            if (N%i==0){
+                return false;
+            }
+        }
+        return true;
+    }
+</script>
+</body>
+</html>

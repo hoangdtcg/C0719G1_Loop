@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So Nguyen To</title>
+</head>
+<body>
+
+<p>Ban muon hien thi bao nhieu so nguyen to?</p>
+<input type="text" id="numbers">
+<button type="button" onclick="hienThi()" >Hien thi</button>
+<p id="kq"></p>
+
+<script>
+    function hienThi() {
+        let numbers = parseInt(document.getElementById("numbers").value);
+        let text = "";
+        let count = 0;
+        let N = 2;
+        while (count < numbers) {
+            let a = true;
+            let i = 2;
+            for (i; i <= Math.sqrt(N); i++) {
+                if (N % i == 0) {
+                    a = false;
+                }
+            }
+            if(a) {
+                text += " " +N;
+                count ++;
+            }
+            N++;
+        }
+        document.getElementById("kq").innerHTML = text;
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+100 số nguyên tố đầu tiên là:
+<script>
+    let i = 1000000;
+    let a;
+    let count1 = 0;
+    let n;  // n là số nguyên tố //
+    let divitor = 0;
+    for (n = 2; n <= i; n++){
+        for (a = 1; a <= i; a++ ){
+            if (n % a === 0)
+                divitor++;
+        }
+        if (divitor === 2) {
+            document.write(n + ', ');
+            count1 ++;
+        }
+        divitor = 0;
+        if (count1 == 100)
+            break;
+    }
+
+</script>
+
+</body>
+</html>

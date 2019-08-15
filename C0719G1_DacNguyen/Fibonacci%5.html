@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let i;
+    let fib = [];
+    fib[0] = 0;
+    fib[1] = 1;
+
+    for (i = 2; i < 20; i++) {
+        fib[i] = fib[i - 2] + fib[i - 1];
+        document.write(fib[i] + "</br>");
+        //console.log(fib[i]);
+
+        if (fib[i] % 5 == 0) {
+            document.write(fib[i] + " chia het cho 5" + "</br>");
+            break;
+        }
+    }
+</script>
+</body>
+</html>

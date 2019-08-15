@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So Nguyen To</title>
+</head>
+<body>
+
+<p>Ban can tim bao nhieu so nguyen to?</p>
+<input type="text" id="numbers">
+<button type="button" onclick="isPrime()" >Tim</button>
+<p id="result"></p>
+
+</body>
+<script>
+    function isPrime() {
+        let numbers = parseInt(document.getElementById("numbers").value);
+        let result = "";
+        let count = 0;
+        let N = 2;
+        while (count < numbers) {
+            let i = 2;
+            let isPrime = true;
+            for (i; i <= Math.sqrt(N); i++) {
+                if (N % i == 0) {
+                    isPrime = false;
+                }
+            }
+            if(isPrime) {
+                result += " " +N;
+                count ++;
+            }
+            N++;
+        }
+        document.getElementById("result").innerHTML = result;
+    }
+
+</script>
+</html>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="225f804b-aef4-44af-89d6-176ea2cce497" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../SS3/BMI/.idea/BMI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/BMI/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/BMI/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/BMI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/BMI/bmi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/BMI/bmi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/DoYouLoveMe/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/DoYouLoveMe/.idea/DoYouLoveMe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/DoYouLoveMe/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/DoYouLoveMe/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/DoYouLoveMe/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/DoYouLoveMe/yeuanhkhong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/DoYouLoveMe/yeuanhnhe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Dua-xe/.idea/Dua-xe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Dua-xe/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Dua-xe/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Dua-xe/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Dua-xe/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Dua-xe/dua-xe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Dua-xe/dua-xe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Dua-xe/s11-26039.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Dua-xe/s12-26039.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/.idea/Game_xep_hinh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/x1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/x2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/x3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/x4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/x5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xx1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xx2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xx3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xx4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xx5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xxx1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xxx2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xxx3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xxx4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xxx5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xxxx1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xxxx2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xxxx3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xxxx4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xxxx5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xxxxx1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xxxxx2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xxxxx3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xxxxx4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/anh/xxxxx5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/game.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Game_xep_hinh/game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/May_Tinh_Bo_Tui/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/May_Tinh_Bo_Tui/.idea/May_Tinh_Bo_Tui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/May_Tinh_Bo_Tui/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/May_Tinh_Bo_Tui/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/May_Tinh_Bo_Tui/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/May_Tinh_Bo_Tui/may-tinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/May_Tinh_Bo_Tui/maytinh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Swith-case/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Swith-case/.idea/Swith-case.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Swith-case/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Swith-case/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Swith-case/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Swith-case/swith-case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/Swith-case/swith-case.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/su-kien-chuot/Hinh-Anh-Dong-Ve-Bong-Da-Qua-Banh-Cau-Thu-Trong-Tai- (43).gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/su-kien-chuot/su-kien-chuot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/su-kien-chuot/su-kien-chuot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/su-kien-phim/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/su-kien-phim/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/su-kien-phim/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/su-kien-phim/.idea/su-kien-phim.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/su-kien-phim/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/su-kien-phim/hot-girl-anh-the-huong-le-xe-buyt8-15210195344091865692058.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/su-kien-phim/su-kien-phim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS3/su-kien-phim/su-kien-phim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../For/.idea/For.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../For/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../For/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../For/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../For/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../For/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../While/.idea/While.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../While/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../While/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../While/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../While/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../While/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/do-while.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/do-while.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../th-If-Else-If/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../th-If-Else-If/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1P8GaczIxVdnGrO13blt3xw1XNS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="225f804b-aef4-44af-89d6-176ea2cce497" name="Default Changelist" comment="" />
+      <created>1565248374738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565248374738</updated>
+      <workItem from="1565248375846" duration="936000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

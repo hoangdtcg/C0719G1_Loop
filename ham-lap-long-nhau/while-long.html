@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>while long</title>
+</head>
+<body>
+<script>
+    let tick, i, j;
+    tick = "<table border='1' width='300' cellspacing='0' cellpadding='3'>";
+    i = j = 1;
+    while (i <= 10) {
+        tick = tick + "<tr>";
+        while (j <= 10) {
+            tick = tick + "<td>" + i * j + "</td>";
+            j++;
+        }
+        tick = tick + "</tr>";
+        j = 1;
+        i++;
+    }
+    tick = tick + "</table>";
+    document.write(tick);
+</script>
+
+</body>
+</html>

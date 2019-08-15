@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai2</title>
+</head>
+<body>
+<p id="xuatra"></p>
+
+<input id="nhapso" type="number">
+<button type="button" onclick="tinhtong()">Ket Qua</button>
+
+<script>
+
+    function tinhtong() {
+        let sonhapvao = parseInt(document.getElementById("nhapso").value);
+        let tong = 0 ;
+
+        for (let i = 1; i <=sonhapvao;i++) {
+            tong = tong + i;
+        }
+        document.getElementById('xuatra').innerHTML = 'Tong so la :' + tong;
+    }
+</script>
+</body>
+
+</html>

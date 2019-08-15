@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 4</title>
+</head>
+<body>
+<SCRIPT>
+    let number = parseInt(prompt('nhap dai:'));
+    for (let i=0 ; i<number; i++){
+        for (let j = 0; j < number; j++) {
+            if (i == 0 || i == (number - 1) || j == 0 || j == (number - 1)) {
+                document.write(' * ');
+
+            }
+            else document.write('&nbsp;&nbsp;&nbsp;');
+        }
+        document.write('<br>');
+    }
+</SCRIPT>
+</body>
+</html>

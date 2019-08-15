@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>for long</title>
+</head>
+<body>
+
+<input id="so1" type="number">
+<input id='so2' type="number">
+<button type="button" onclick="tich()">Click</button>
+
+
+<script>
+    let tick = " <table  ' border='1' width='300' cellspacing='0' cellpadding='3' >";
+
+    function tich() {
+        let a = document.getElementById('so1').value;
+        let b = document.getElementById('so2').value;
+        for (i = 1; i <= a; i++) {
+            tick = tick + "<tr>";
+            for (j = 1; j <= b; j++) {
+                if (i % 2 == 0) {
+                    if (j % 2 == 0) {
+                        tick = tick + "<td style='background-color: blue;'>" + i * j + "</td>";
+                    } else {
+                        tick = tick + "<td style='background-color: red;'>" + i * j + "</td>";
+                    }
+                } else {
+                    if (j % 2 == 0) {
+                        tick = tick + "<td style='background-color: red;'>" + i * j + "</td>";
+                    } else {
+                        tick = tick + "<td style='background-color: blue;'>" + i * j + "</td>";
+                    }
+                }
+
+            }
+            tick = tick + "</tr>";
+        }
+        tick = tick + '</table>';
+        document.write(tick);
+    }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 1</title>
+</head>
+<body>
+<input id="vonglap" type="number">
+<button type="button" onclick="vonglapwhile()">Click</button>
+<script>
+    function vonglapwhile() {
+        let a= parseInt(document.getElementById('vonglap').value);
+        let tong=0;
+        let i=0;
+        while (i<a){
+            i++;
+            tong=tong+i;
+
+        }
+        document.write('Tong la :' +tong);
+    }
+</script>
+
+</body>
+</html>

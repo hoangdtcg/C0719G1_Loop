@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng Cửu Chương</title>
+    <style>
+        table {
+            border-color: blue;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<script>
+    let text="<table width='80%' border='1px'>";
+    text+="<caption> Bảng Cửu Chương</caption>";
+    for(let i=1; i<10;i++){
+        text+= "<tr>";
+        for(let j=2;j<10;j++){
+            text+="<td>"+ j +" x " + i + "=" + i*j + "</td>";
+        }
+        text+="</tr>";
+    }
+    text+="</table>";
+    document.write(text);
+</script>
+</body>
+</html>

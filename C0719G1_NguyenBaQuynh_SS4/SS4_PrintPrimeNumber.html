@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show Prime Number</title>
+    <script>
+        function showPrime(){
+            let number=parseInt(document.getElementById("number").value);
+            let count=0;
+            let text="First " + number + " of Primes: ";
+            if(number>0){
+                if(number===1){
+                    text+=2;
+                }else{
+                    count=1;
+                    text+=2 +", ";
+                    let prime=3;
+                    while(count<number){
+                        if(isPrime(prime)){
+                            count++;
+                            if(count===number){
+                                text+=prime;
+                            }else{
+                                text+=prime + ", ";
+                            }
+                        }
+                        prime+=2;
+                    }
+                }
+            }else{
+                text="Giá trị nhập phải là số nguyên > 0";
+            }
+            document.getElementById("result").innerHTML=text;
+        }
+
+        //Số Nguyên tố:
+        // -Nguyên dương   -có 2 ước là 1 và chính nó    - 2 là số chẵn duy nhất là số nguyên tố.
+        function isPrime(number){
+            if(!isNaN(number)){
+                if(number===2){
+                    return true;
+                }else if(number <2){
+                    return false;
+                }else if(number % 2==0){
+                    return false;
+                } else {
+                    for(let i=3; i <=number/3; i+=2){
+                        if(number%i===0){
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+            }else{
+                return false;
+            }
+
+        }
+    </script>
+</head>
+<body>
+<table>
+    <caption style="color: blue; font-size: 26px; font-weight: bold">In Ra Các Số Nguyên Tố Đầu Tiên</caption>
+    <tr>
+        <td><label for="number" style="color:red; font-weight: bold">Nhập Số lượng số nguyên tố: </label></td>
+        <td><input type="number" id="number" ></td>
+        <td><button onclick="showPrime()">Print Prime</button> </td>
+    </tr>
+</table>
+<span id="result" style="color:blue"></span>
+
+</body>
+</html>

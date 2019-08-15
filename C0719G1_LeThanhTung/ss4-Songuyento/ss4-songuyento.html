@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>songuyento</title>
+</head>
+<body>
+<script>
+    let num = parseInt(prompt("nhap vao num"));
+    let count = 0;
+    let j = 2;
+    while(count<num){
+        if (check(j)){
+            document.write((+j + "  "));
+            count++;
+        }
+        j++;
+    }
+    function check(n) {
+        if(n<2){
+            return false;
+        }
+        for(let i = 2; i <= Math.sqrt(n);i++){
+            if(n%i == 0){
+                return false;
+            }
+        }
+        return true;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let i,j, ketqua;
+        ketqua ="<table border='1' width='1200'cellspacing='0' cellpadding='3'>"
+        i=j=1;
+        while ( i<=10 ){
+            ketqua= ketqua+"<tr>";
+            while (j<=10){
+                ketqua=ketqua+  "<td>" + j+"X"+ i+ "=" +i *j +"</td>";
+                j++;
+            }
+            ketqua=ketqua+"</tr>";
+            j=1;
+            i++;
+        }
+        ketqua=ketqua +"</table>";
+        document.write(ketqua);
+    </script>
+</body>
+</html>

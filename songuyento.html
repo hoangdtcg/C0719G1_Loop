@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=3;
+    let dem2=1;
+    let dem=0;
+    document.write(" 2 ");
+    while (dem2<20) {
+       dem=0;
+        for (let i = 2; i <= Math.sqrt(a); i++) {
+            if (a % i == 0) {
+                dem++;
+                break;
+            }
+        }
+        if (dem == 0){
+            document.write(" " + a);
+            dem2++; }
+        a++;
+    }
+
+</script>
+</body>
+</html>

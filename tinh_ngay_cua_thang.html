@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính Ngày Của Các Tháng</title>
+</head>
+<body>
+<form>
+    <input type="text" id="month">
+    <input type="button" value="Tính Số Ngày" onclick="dayS()">
+    <p id="result"></p>
+    <script>
+        function dayS() {
+            let day = parseInt(document.getElementById("month").value);
+            if (month.value > 12 || month.value <= 0) {
+                document.getElementById("result").innerHTML = "Nhập Sai Tháng";
+            } else {
+                switch (day) {
+                    case 1 :
+                    case 3 :
+                    case 5 :
+                    case 7 :
+                    case 8 :
+                    case 10 :
+                    case 12 :
+                        document.getElementById("result").innerHTML = "Tháng " + day + " có 31 ngày!";
+                        break;
+                    case 2 :
+                        document.getElementById("result").innerHTML= "Tháng " + day + " có 28 ngày hoặc 29 ngày!";
+                        break;
+                    default :
+                        document.getElementById("result").innerHTML= "Tháng " + day + " có 30 ngày!";
+                }
+            }
+        }
+    </script>
+
+</form>
+</body>
+</html>

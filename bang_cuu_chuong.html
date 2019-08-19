@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng Cửu Chương</title>
+</head>
+<body>
+<div id="board"></div>
+
+    <tr>
+    <td>
+
+    </td>
+    </tr>
+</table>
+<script>
+        let c = "<table>";
+        for (let a=0;a<=20;a++){
+        c += "<tr>";
+            for (let b=0; b<=20;b++) {
+                 c +="<td><button id='" + a +"-"+ b+"' onclick='clickCell(this.id)' style=' width: 50px; height: 50px;'></button></td>";
+            }
+            c+=" </tr>";
+        }
+        c+= "</table>";
+document.getElementById("board").innerHTML= c;
+        let element ="";
+        let check = false;
+
+    function clickCell(id) {
+
+        if(element == ""){
+            element
+                = "X";
+            check = true;
+        }
+        if(check){
+            element = "X";
+            check = false;
+        }else{
+            element = "O";
+            check = true;
+        }
+
+        document.getElementById(id).innerHTML = element;
+        document.getElementById(id).disabled = true;
+    }
+
+
+</script>
+</body>
+</html>

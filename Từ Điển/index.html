@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phân Loại Lương Thực</title>
+</head>
+<body>
+<input id="ten" placeholder="Nhập Tên Loại Lương Thực">
+<input type="button" value="TRA CỨU" onclick="phanloai()">
+<img src="" id="img">
+<p id="result"></p>
+<script>
+    let img = document.getElementById("img");
+    let ten = document.getElementById("ten").value;
+    let result = document.getElementById("result")
+
+    function phanloai() {
+        let name = document.getElementById("ten").value;
+        switch (name) {
+            case "Lúa":
+                result.innerHTML = "Cây lương thực, thân cỏ rỗng, hoa lưỡng tính, không có bao hoa, quả có vỏ trấu bao ngoài (gọi là hạt thóc)";
+                img.src = 'images/lua.jpg';
+                break;
+            case "Ngô":
+                result.innerHTML = "Cây lương thực, thân thẳng, quả có dạng hạt tụ lại thành bắp ở lưng chừng thân, hạt dùng để ăn";
+                img.src = "images/ngo.jpg";
+                break;
+            case "Sắn":
+                result.innerHTML = "Cây cùng họ với thầu dầu, thân thẳng mang nhiều sẹo lá, lá có cuống dài, phiến xẻ hình chân vịt, rễ củ chứa nhiều tinh bột, dùng để ăn";
+                img.src = "images/san.jpg";
+                break;
+            case "Lúa Mì" :
+                result.innerHTML = "ây lương thực chính của nhiều vùng trên thế giới, nhất là của các vùng ôn đới, bột dùng làm bánh (bánh mì) ăn hằng ngày.";
+                img.src = "images/lua_mi.jpg";
+                break;
+        }
+    }
+</script>
+</body>
+</html>
